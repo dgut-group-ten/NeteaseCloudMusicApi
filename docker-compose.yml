@@ -1,0 +1,14 @@
+version: "2"
+
+services:
+  web:
+    build: .
+    container_name: api_web
+    restart: always
+
+  nginx:
+    build: ./nginx
+    container_name: api_nginx
+    ports:
+      - "3000:3000"
+    restart: always
