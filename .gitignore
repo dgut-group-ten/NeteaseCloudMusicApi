@@ -28,7 +28,7 @@ yarn-error.log*
 *.iml
 *.iws
 
-nginx/cert/gamenews.key
-nginx/cert/gamenews.pem
+nginx/cert/music.key
+nginx/cert/music.pem
 
 .vscode
